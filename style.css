@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: rgb(250, 192, 104);
+    background-size: cover ;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Londrina Solid', cursive;
+    
+}
+h1 {
+    text-align: center;
+    padding-top: 2.5rem;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.range {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.resulttext  {
+    text-align: center;
+    height: 50px;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.resulttext #result {
+    padding-bottom: 2rem;
+    /* color: green; */
+}
+
+.container .rule {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.info {
+    text-align: center;
+
+}
+
+.info #inputarea {
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid black;
+    outline: none;
+}
+.info #btn,#restart {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+   
+}
+
+.info button:hover {
+    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+    cursor: pointer;
+}
+#img {
+    display: flex;
+    gap: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    
+    width: 100px;
+    border-radius: 30px;
+}
